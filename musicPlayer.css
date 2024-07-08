@@ -1,0 +1,66 @@
+.music-player {
+    display: flex;
+    align-items: center;
+    /* Vertically center the child elements */
+    justify-content: center;
+    height: 100%;
+
+    background-color: #ffffff;
+    border-radius: 25px;
+
+}
+
+.playerTitle {
+    color: black;
+    text-align: center;
+}
+
+.musicDetails {
+    color: black;
+    text-align: center;
+}
+
+.musicControls {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.component {
+    background-color: white;
+    width: 100%;
+}
+
+.musicCover {
+    border-radius: 10%;
+    text-align: center;
+
+
+}
+
+.albumArtImage {
+    width: 350px;
+    height: 350px;
+    border-radius: 25px
+}
+
+.playButton {
+    background: none;
+    border: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.subTitle {
+    margin-top: -1em;
+    color: #4f4f4f;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+@media (max-width: 900px) {
+    .component {
+        width: 50%;
+    }
+}
